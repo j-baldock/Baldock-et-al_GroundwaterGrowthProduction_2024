@@ -1,0 +1,52 @@
+model {
+
+#-------------- LIKELIHOOD ---------------#
+
+for (i in 1:nObs) {
+    dens[i] ~ dnorm(mu[i], pow(sigma, -2)) 
+    mu[i] <- alpha + alpha.year[yrid[i]] + alpha.stream[strid[i]] + alpha.sect[sectid[i]] + inprod(beta[], Covs[i,])
+    loglik[i] <- logdensity.norm(dens[i], mu[i], pow(sigma, -2)) 
+    }
+
+#----------- RANDOM EFFECTS ---------------#
+
+## YEARS (crossed)
+for (i in 1:nYears) {
+    alpha.year[i] ~ dnorm(0, pow(sigma.yr, -2))
+    alpha.year.adj[i] <- alpha.year[i] - mean(alpha.year[])
+    }
+
+## STREAM (crossed)
+for (i in 1:nStreams) {
+    alpha.stream[i] ~ dnorm(0, pow(sigma.str, -2))
+    alpha.stream.adj[i] <- alpha.stream[i] - mean(alpha.stream[])
+    }
+
+## SECTION (nested within stream)
+for (i in 1:nSections) {
+    alpha.sect[i] ~ dnorm(alpha.stream[sect_per_str[i]], pow(sigma.sect, -2))
+    alpha.sect.adj[i] <- alpha.sect[i] - mean(alpha.sect[])
+    }
+
+#--------------- PRIORS -------------------#
+
+# global intercept
+alpha ~ dnorm(0, pow(sigma.a, -2))
+alpha.adj <- alpha + mean(alpha.year[]) + mean(alpha.stream[]) + mean(alpha.sect[])
+
+# slopes
+for (i in 1:nCovs) { beta[i] ~ dnorm(0, pow(sigma.b, -2)) }
+
+# hyper-priors
+sigma.a ~ dnorm(0, pow(10, -2)) T(0,) 
+sigma.b ~ dnorm(0, pow(10, -2)) T(0,) 
+
+# state process error
+sigma ~ dnorm(0, pow(10, -2)) T(0,) 
+
+# random effect variances
+sigma.yr ~ dnorm(0, pow(10, -2)) T(0,) 
+sigma.str ~ dnorm(0, pow(10, -2)) T(0,)
+sigma.sect ~ dnorm(0, pow(10, -2)) T(0,) 
+
+}
