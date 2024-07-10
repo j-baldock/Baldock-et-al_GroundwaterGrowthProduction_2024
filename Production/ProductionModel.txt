@@ -1,0 +1,98 @@
+model {
+
+
+#-------------- LIKELIHOOD ---------------#
+
+for (i in 1:nObs) {
+    ## OBSERVATION PROCESS
+
+    # priors for covariate data to deal with missing values
+    for (j in 1:nCovs) { Covs[i,j] ~ dnorm(CovsMu[j], pow(CovsSD[j], -2)) }
+
+    ## STATE PROCESS
+    P[i] ~ dnorm(mu[i], pow(sigma.pr[i] * elap[i], -2)) 
+    mu[i] <- alpha + alpha.year[yrid[i]] + alpha.stream[strid[i]] + alpha.sect[sectid[i]] + inprod(beta[], Covs[i,])
+
+    log(sigma.pr[i]) <- log.sigma.alpha + inprod(log.sigma.beta[], Covs_Sigma[i,])
+
+    # log likelihood calculation for WAIC
+    loglik[i] <- logdensity.norm(P[i], mu[i], pow(sigma.pr[i] * elap[i], -2)) 
+
+    # residuals for posterior predictive check
+    res[i] <- P[i] - mu[i]
+
+    }
+
+
+#----------- RANDOM EFFECTS ---------------#
+
+## YEARS (crossed)
+for (i in 1:nYears) {
+    alpha.year[i] ~ dnorm(0, pow(sigma.yr, -2))
+    alpha.year.adj[i] <- alpha.year[i] - mean(alpha.year[])
+    }
+
+## STREAM (crossed)
+for (i in 1:nStreams) {
+    alpha.stream[i] ~ dnorm(0, pow(sigma.str, -2))
+    alpha.stream.adj[i] <- alpha.stream[i] - mean(alpha.stream[])
+    }
+
+## SECTION (nested within stream)
+for (i in 1:nSections) {
+    alpha.sect[i] ~ dnorm(alpha.stream[sect_per_str[i]], pow(sigma.sect, -2))
+    alpha.sect.adj[i] <- alpha.sect[i] - mean(alpha.sect[])
+    }
+
+
+#--------------- PRIORS -------------------#
+
+# global intercept
+alpha ~ dnorm(0, pow(10, -2))
+alpha.adj <- alpha + mean(alpha.year[]) + mean(alpha.stream[]) + mean(alpha.sect[])
+
+# slopes
+for (i in 1:nCovs) { beta[i] ~ dnorm(0, pow(10, -2)) }
+
+# hyper-priors
+#sigma.a ~ dnorm(0, pow(10, -2)) T(0,) 
+#sigma.b ~ dnorm(0, pow(10, -2)) T(0,) 
+
+# state process error
+#sigma.pr ~ dnorm(0, 0.01) T(0,) 
+log.sigma.alpha ~ dnorm(0, pow(10, -2))
+sigma.alpha <- exp(log.sigma.alpha)
+for (i in 1:nSigmaCovs) { log.sigma.beta[i] ~ dnorm(0, pow(sigma.sb, -2)) }
+sigma.sb ~ dnorm(0, pow(10, -2)) T(0,) 
+
+# random effect variances
+sigma.yr ~ dnorm(0, pow(10, -2)) T(0,) 
+sigma.str ~ dnorm(0, pow(10, -2)) T(0,) 
+sigma.sect ~ dnorm(0, pow(10, -2)) T(0,) 
+
+
+#----------- DERIVED PARAMETERS ------------#
+
+# variance of model predictions (fixed + random effects)
+var_fit <- (sd(mu))^2 
+
+# variance of fixed effect predictions 
+for (i in 1:nObs) { mu.fix[i] <- alpha + inprod(beta[], Covs[i,]) }
+var_fix <- (sd(mu.fix))^2
+
+# residual variance
+var_res <- (sd(res))^2
+
+# random effect variances
+var_yr <- sigma.yr^2
+var_str <- sigma.str^2
+var_sect <- sigma.sect^2
+
+# calculate marginal R^2
+margR2 <- var_fix / (var_fix + var_res + var_yr + var_str + var_sect)
+
+# calculate conditional R^2
+condR2 <- (var_fix + var_yr + var_str + var_sect) / (var_fix + var_res + var_yr + var_str + var_sect)
+
+
+}
