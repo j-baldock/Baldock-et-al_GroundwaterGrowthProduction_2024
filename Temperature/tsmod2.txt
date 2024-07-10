@@ -1,0 +1,36 @@
+model {
+
+for (i in 1:nObs) {
+    temp[i] ~ dnorm(mu.t[i], pow(sigma, -2))
+    mu.t[i] <- alpha[siteid[i]] + beta.year * yearid[i] + beta.air[siteid[i]] * airt[i]
+    loglik[i] <- logdensity.norm(temp[i], mu.t[i], pow(sigma, -2))
+    res[i] <- temp[i] - mu.t[i]
+    }
+
+# hierarchcial air temp effect (temp sensitivity as a function of basin covariates)
+for (i in 1:nSites) { 
+    beta.air[i] ~ dnorm(ts.mu[i], pow(sigma.ts, -2))
+    ts.mu[i] <- alpha.ts + inprod(beta.ts[], Covs[i,])
+    }
+
+# priors
+sigma ~ dunif(0, 100)
+sigma.ts ~ dunif(0, 100)
+beta.year ~ dnorm(0, 0.001)
+alpha.ts ~ dnorm(0, 0.001)
+for (i in 1:nSites) { alpha[i] ~ dnorm(0, 0.001) }
+for (i in 1:nCovs) { beta.ts[i] ~ dnorm(0, 0.001) }
+
+
+#----------- DERIVED PARAMETERS ------------#
+
+# variance of model predictions (fixed + random effects)
+var_fit <- (sd(mu.t))^2 
+
+# residual variance
+var_res <- (sd(res))^2
+
+# calculate Bayesian R^2
+R2 <- var_fit / (var_fit + var_res)
+
+}
