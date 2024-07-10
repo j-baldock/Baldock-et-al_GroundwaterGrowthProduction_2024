@@ -1,7 +1,7 @@
 # Baldock-et-al_GroundwaterGrowthProduction_2024
 Data and code repository for manuscript entitled "Groundwater structures fish growth and production across a riverscape" authored by Jeffrey R. Baldock, Robert Al-Chokhachy, and Annika Walters. 
 
-"Growth_DataTable_WithCovariates.csv": this is the data file used in the various growth and production R scripts. This file is created within the "Data Table.R" script, located within the "Data manipulation" folder. This file (and the R script used to created it) contain a number of different calculations and fields that ultimately were not used in the analysis, but were generated in the process of analytical methods development and exploration. The raw fish data can be found in the "GrowthData_working_withAges_YOYonly.csv" file, located within the "Data manipulation" folder.  
+"Growth_DataTable_WithCovariates.csv": this is the data file used in the various growth and production R scripts. This file is created within the "Data Table.R" script, located within the "Data manipulation" folder. This file (and the R script used to created it) contain a number of different calculations and fields that were generated in the process of analytical methods development and exploration, but ultimately were not used in the analysis. The raw fish data can be found in the "GrowthData_working_withAges_YOYonly.csv" file, located within the "Data manipulation" folder.  
 
 "Data manipulation": various scripts and data files used to create "Growth_DataTable_WithCovariates.csv".
 
