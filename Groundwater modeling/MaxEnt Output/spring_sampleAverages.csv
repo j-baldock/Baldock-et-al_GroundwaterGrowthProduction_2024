@@ -1,0 +1,12 @@
+Predictor variable,Categorical,Sample average
+UpperSnake_BedrockGeology,true,1.0
+UpperSnake_DistanceToFlowline,false,244.49189137365832
+UpperSnake_DistanceToLineaments,false,1512.8173043598501
+UpperSnake_Elevation,false,2208.970209166061
+UpperSnake_PlanformCurvature,false,-0.14406985904779573
+UpperSnake_PlanformCurvatureRange,false,1.1565203418487742
+UpperSnake_ProfileCurvature,false,0.40676870409673616
+UpperSnake_ProfileCurvatureRange,false,1.8951406569415055
+UpperSnake_Slope,false,7.58281586032231
+UpperSnake_SurficialGeology,true,27.0
+UpperSnake_TerrainRuggedness,false,1.0036296992338904

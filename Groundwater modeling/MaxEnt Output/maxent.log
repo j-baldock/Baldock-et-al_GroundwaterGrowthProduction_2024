@@ -1,0 +1,434 @@
+Mon Nov 27 15:38:22 MST 2023
+MaxEnt version 3.4.4
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_BedrockGeology.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_DistanceToFlowline.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_DistanceToLineaments.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_Elevation.asc
+Time since start: 1.298
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_PlanformCurvature.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_PlanformCurvatureRange.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_ProfileCurvature.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_ProfileCurvatureRange.asc
+Time since start: 2.664
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_Slope.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_SurficialGeology.asc
+Checking header of G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_TerrainRuggedness.asc
+Reading samples from PresencePoints_GroundwaterSprings_UpperSnake.csv
+Read samples: max memory 259522560, total allocated 21737472, free 8289696, used 13447776, increment 13447776
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_BedrockGeology.asc size 962266662, max memory = 259522560
+Determining type of file UpperSnake_BedrockGeology.asc
+Time since start: 61.665
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_BedrockGeology.mxe
+Time since start: 130.249
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_DistanceToFlowline.asc size 2651752587, max memory = 259522560
+Determining type of file UpperSnake_DistanceToFlowline.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_DistanceToFlowline.mxe
+Time since start: 400.834
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_DistanceToLineaments.asc size 2588801294, max memory = 259522560
+Determining type of file UpperSnake_DistanceToLineaments.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_DistanceToLineaments.mxe
+Time since start: 673.993
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_Elevation.asc size 2521610050, max memory = 259522560
+Determining type of file UpperSnake_Elevation.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_Elevation.mxe
+Time since start: 928.693
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_PlanformCurvature.asc size 2859900408, max memory = 259522560
+Determining type of file UpperSnake_PlanformCurvature.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_PlanformCurvature.mxe
+Time since start: 1213.194
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_PlanformCurvatureRange.asc size 2752835574, max memory = 259522560
+Determining type of file UpperSnake_PlanformCurvatureRange.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_PlanformCurvatureRange.mxe
+Time since start: 1488.205
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_ProfileCurvature.asc size 2857645021, max memory = 259522560
+Determining type of file UpperSnake_ProfileCurvature.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_ProfileCurvature.mxe
+Time since start: 1777.476
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_ProfileCurvatureRange.asc size 2743856651, max memory = 259522560
+Determining type of file UpperSnake_ProfileCurvatureRange.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_ProfileCurvatureRange.mxe
+Time since start: 2040.733
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_Slope.asc size 2734709510, max memory = 259522560
+Determining type of file UpperSnake_Slope.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_Slope.mxe
+Time since start: 2372.881
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_SurficialGeology.asc size 948682307, max memory = 259522560
+Determining type of file UpperSnake_SurficialGeology.asc
+Time since start: 2489.248
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_SurficialGeology.mxe
+Time since start: 2588.981
+Converting file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\UpperSnake_TerrainRuggedness.asc size 2486834558, max memory = 259522560
+Determining type of file UpperSnake_TerrainRuggedness.asc
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII\maxent.cache\UpperSnake_TerrainRuggedness.mxe
+Time since start: 3230.837
+Extractor: max memory 259522560, total allocated 26562560, free 4144504, used 22418056, increment 8970280
+Extracting random background and sample data
+Time since start: 4014.918
+110229478 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves outputformat=logistic "outputdirectory=G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Maxent Fits\UpperSnake\BedSurf" "samplesfile=G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\PresencePoints\PresencePoints_GroundwaterSprings_UpperSnake.csv" "environmentallayers=G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII" randomtestpoints=30 writeplotdata defaultprevalence=0.1 -N UpperSnake_SurficialGeologyReclass -t UpperSnake_BedrockGeology -t UpperSnake_SurficialGeology
+Species: spring
+Layers: UpperSnake_BedrockGeology UpperSnake_DistanceToFlowline UpperSnake_DistanceToLineaments UpperSnake_Elevation UpperSnake_PlanformCurvature UpperSnake_PlanformCurvatureRange UpperSnake_ProfileCurvature UpperSnake_ProfileCurvatureRange UpperSnake_Slope UpperSnake_SurficialGeology UpperSnake_TerrainRuggedness
+Layertypes: Categorical Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Categorical Continuous
+responsecurves: true
+outputformat: logistic
+outputdirectory: G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Maxent Fits\UpperSnake\BedSurf
+samplesfile: G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\PresencePoints\PresencePoints_GroundwaterSprings_UpperSnake.csv
+environmentallayers: G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Covariates\UpperSnakeASCII
+randomtestpoints: 30
+writeplotdata: true
+defaultprevalence: 0.1
+
+getSamples: max memory 259522560, total allocated 27545600, free 10957032, used 16588568, increment -5829488
+Making features
+makeFeatures: max memory 259522560, total allocated 27545600, free 9196144, used 18349456, increment 1760888
+spring: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 52404224, free 18087720, used 34316504, increment 15967048
+linearPredictor: max memory 259522560, total allocated 52404224, free 18087720, used 34316504, increment 0
+Deactivating (UpperSnake_BedrockGeology=8.0)
+Deactivating (UpperSnake_BedrockGeology=12.0)
+Deactivating (UpperSnake_BedrockGeology=16.0)
+Deactivating (UpperSnake_BedrockGeology=17.0)
+Deactivating (UpperSnake_BedrockGeology=18.0)
+Deactivating (UpperSnake_BedrockGeology=20.0)
+Deactivating (UpperSnake_BedrockGeology=22.0)
+Deactivating (UpperSnake_BedrockGeology=23.0)
+Deactivating (UpperSnake_BedrockGeology=34.0)
+Deactivating (UpperSnake_BedrockGeology=38.0)
+Deactivating (UpperSnake_BedrockGeology=39.0)
+Deactivating (UpperSnake_BedrockGeology=40.0)
+Deactivating (UpperSnake_BedrockGeology=47.0)
+Deactivating (UpperSnake_BedrockGeology=50.0)
+Deactivating (UpperSnake_BedrockGeology=56.0)
+Deactivating (UpperSnake_BedrockGeology=57.0)
+Deactivating (UpperSnake_BedrockGeology=75.0)
+Deactivating (UpperSnake_BedrockGeology=80.0)
+Deactivating (UpperSnake_BedrockGeology=102.0)
+Deactivating (UpperSnake_BedrockGeology=107.0)
+Deactivating (UpperSnake_BedrockGeology=108.0)
+Deactivating (UpperSnake_BedrockGeology=109.0)
+Deactivating (UpperSnake_BedrockGeology=110.0)
+Deactivating (UpperSnake_BedrockGeology=111.0)
+Deactivating (UpperSnake_BedrockGeology=112.0)
+Deactivating (UpperSnake_BedrockGeology=114.0)
+Deactivating (UpperSnake_BedrockGeology=115.0)
+Deactivating (UpperSnake_BedrockGeology=123.0)
+Deactivating (UpperSnake_BedrockGeology=126.0)
+Deactivating (UpperSnake_BedrockGeology=130.0)
+Deactivating (UpperSnake_BedrockGeology=134.0)
+Deactivating (UpperSnake_BedrockGeology=137.0)
+Deactivating (UpperSnake_BedrockGeology=138.0)
+Deactivating (UpperSnake_BedrockGeology=148.0)
+Deactivating (UpperSnake_BedrockGeology=153.0)
+Deactivating (UpperSnake_BedrockGeology=165.0)
+Deactivating (UpperSnake_BedrockGeology=199.0)
+Deactivating (UpperSnake_BedrockGeology=200.0)
+Deactivating (UpperSnake_BedrockGeology=202.0)
+Deactivating (UpperSnake_BedrockGeology=203.0)
+Deactivating (UpperSnake_BedrockGeology=299.0)
+Deactivating (UpperSnake_SurficialGeology=4.0)
+Deactivating (UpperSnake_SurficialGeology=5.0)
+Deactivating (UpperSnake_SurficialGeology=6.0)
+Deactivating (UpperSnake_SurficialGeology=7.0)
+Deactivating (UpperSnake_SurficialGeology=8.0)
+Deactivating (UpperSnake_SurficialGeology=9.0)
+Deactivating (UpperSnake_SurficialGeology=10.0)
+Deactivating (UpperSnake_SurficialGeology=11.0)
+Deactivating (UpperSnake_SurficialGeology=12.0)
+Deactivating (UpperSnake_SurficialGeology=13.0)
+Deactivating (UpperSnake_SurficialGeology=14.0)
+Deactivating (UpperSnake_SurficialGeology=15.0)
+Deactivating (UpperSnake_SurficialGeology=17.0)
+Deactivating (UpperSnake_SurficialGeology=18.0)
+Deactivating (UpperSnake_SurficialGeology=19.0)
+Deactivating (UpperSnake_SurficialGeology=20.0)
+Deactivating (UpperSnake_SurficialGeology=22.0)
+Deactivating (UpperSnake_SurficialGeology=23.0)
+Deactivating (UpperSnake_SurficialGeology=25.0)
+Deactivating (UpperSnake_SurficialGeology=26.0)
+Deactivating (UpperSnake_SurficialGeology=28.0)
+Deactivating (UpperSnake_SurficialGeology=29.0)
+Deactivating (UpperSnake_SurficialGeology=30.0)
+Deactivating (UpperSnake_SurficialGeology=31.0)
+Deactivating (UpperSnake_SurficialGeology=32.0)
+Deactivating (UpperSnake_SurficialGeology=34.0)
+Deactivating (UpperSnake_SurficialGeology=36.0)
+Deactivating (UpperSnake_SurficialGeology=38.0)
+Deactivating (UpperSnake_SurficialGeology=39.0)
+Deactivating (UpperSnake_SurficialGeology=41.0)
+Deactivating (UpperSnake_SurficialGeology=43.0)
+Deactivating (UpperSnake_SurficialGeology=48.0)
+Deactivating (UpperSnake_SurficialGeology=49.0)
+Deactivating (UpperSnake_SurficialGeology=50.0)
+Deactivating (UpperSnake_SurficialGeology=53.0)
+Deactivating (UpperSnake_SurficialGeology=54.0)
+Deactivating (UpperSnake_SurficialGeology=57.0)
+Deactivating (UpperSnake_SurficialGeology=60.0)
+Deactivating (UpperSnake_SurficialGeology=62.0)
+Deactivating (UpperSnake_SurficialGeology=63.0)
+Deactivating (UpperSnake_SurficialGeology=64.0)
+FeaturedSpace: max memory 259522560, total allocated 52404224, free 17800192, used 34604032, increment 287528
+Sequential: max memory 259522560, total allocated 52404224, free 17800192, used 34604032, increment 0
+Initial loss: 9.223157875686796
+Initial test loss: 9.223157875686796
+Time since start: 4036.026
+500: time = 20.818000 loss = 7.472525 testLoss 6.877761
+Resulting gain: 1.7506329507526415
+Projecting...
+Time since start: 4038.726
+Writing file G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Maxent Fits\UpperSnake\BedSurf\spring.asc
+Time since start: 5649.978
+Writing G:\Shared drives\wyo-coop-baldock\UWyoming\Snake River Cutthroat\Analyses\Groundwater Seeps\Maxent Fits\UpperSnake\BedSurf\plots\spring.png
+Time since start: 5736.604
+spring response curves
+Time since start: 5737.838
+Response curve: only UpperSnake_BedrockGeology
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 31091992, used 72839912, increment 38235880
+spring UpperSnake_BedrockGeology: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 30639280, used 73292624, increment 452712
+linearPredictor: max memory 259522560, total allocated 103931904, free 30639280, used 73292624, increment 0
+Deactivating (UpperSnake_BedrockGeology=8.0)
+Deactivating (UpperSnake_BedrockGeology=12.0)
+Deactivating (UpperSnake_BedrockGeology=16.0)
+Deactivating (UpperSnake_BedrockGeology=17.0)
+Deactivating (UpperSnake_BedrockGeology=18.0)
+Deactivating (UpperSnake_BedrockGeology=20.0)
+Deactivating (UpperSnake_BedrockGeology=22.0)
+Deactivating (UpperSnake_BedrockGeology=23.0)
+Deactivating (UpperSnake_BedrockGeology=34.0)
+Deactivating (UpperSnake_BedrockGeology=38.0)
+Deactivating (UpperSnake_BedrockGeology=39.0)
+Deactivating (UpperSnake_BedrockGeology=40.0)
+Deactivating (UpperSnake_BedrockGeology=47.0)
+Deactivating (UpperSnake_BedrockGeology=50.0)
+Deactivating (UpperSnake_BedrockGeology=56.0)
+Deactivating (UpperSnake_BedrockGeology=57.0)
+Deactivating (UpperSnake_BedrockGeology=75.0)
+Deactivating (UpperSnake_BedrockGeology=80.0)
+Deactivating (UpperSnake_BedrockGeology=102.0)
+Deactivating (UpperSnake_BedrockGeology=107.0)
+Deactivating (UpperSnake_BedrockGeology=108.0)
+Deactivating (UpperSnake_BedrockGeology=109.0)
+Deactivating (UpperSnake_BedrockGeology=110.0)
+Deactivating (UpperSnake_BedrockGeology=111.0)
+Deactivating (UpperSnake_BedrockGeology=112.0)
+Deactivating (UpperSnake_BedrockGeology=114.0)
+Deactivating (UpperSnake_BedrockGeology=115.0)
+Deactivating (UpperSnake_BedrockGeology=123.0)
+Deactivating (UpperSnake_BedrockGeology=126.0)
+Deactivating (UpperSnake_BedrockGeology=130.0)
+Deactivating (UpperSnake_BedrockGeology=134.0)
+Deactivating (UpperSnake_BedrockGeology=137.0)
+Deactivating (UpperSnake_BedrockGeology=138.0)
+Deactivating (UpperSnake_BedrockGeology=148.0)
+Deactivating (UpperSnake_BedrockGeology=153.0)
+Deactivating (UpperSnake_BedrockGeology=165.0)
+Deactivating (UpperSnake_BedrockGeology=199.0)
+Deactivating (UpperSnake_BedrockGeology=200.0)
+Deactivating (UpperSnake_BedrockGeology=202.0)
+Deactivating (UpperSnake_BedrockGeology=203.0)
+Deactivating (UpperSnake_BedrockGeology=299.0)
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 30639280, used 73292624, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 30639280, used 73292624, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.672000 loss = 8.551291
+Resulting gain: 0.6718667780918572
+spring response curves
+Response curve: only UpperSnake_DistanceToFlowline
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 44333440, used 59598464, increment -13694160
+spring UpperSnake_DistanceToFlowline: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 41012872, used 62919032, increment 3320568
+linearPredictor: max memory 259522560, total allocated 103931904, free 41012872, used 62919032, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 41012872, used 62919032, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 41012872, used 62919032, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5740.183
+200: time = 1.504000 loss = 8.274805
+Resulting gain: 0.9483525168005134
+spring response curves
+Response curve: only UpperSnake_DistanceToLineaments
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 42808168, used 61123736, increment -1795296
+spring UpperSnake_DistanceToLineaments: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 39415360, used 64516544, increment 3392808
+linearPredictor: max memory 259522560, total allocated 103931904, free 39415360, used 64516544, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 39415360, used 64516544, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 39415360, used 64516544, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5741.707
+140: time = 1.012000 loss = 9.194379
+Resulting gain: 0.02877851801451392
+spring response curves
+Response curve: only UpperSnake_Elevation
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 31425296, used 72506608, increment 7990064
+spring UpperSnake_Elevation: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 28448752, used 75483152, increment 2976544
+linearPredictor: max memory 259522560, total allocated 103931904, free 28367704, used 75564200, increment 81048
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 28367704, used 75564200, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 28367704, used 75564200, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5745.342
+500: time = 3.501000 loss = 8.500143
+Resulting gain: 0.7230144567311072
+spring response curves
+Response curve: only UpperSnake_PlanformCurvature
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 21779328, used 82152576, increment 6588376
+spring UpperSnake_PlanformCurvature: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 39559864, used 64372040, increment -17780536
+linearPredictor: max memory 259522560, total allocated 103931904, free 39559864, used 64372040, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 39559864, used 64372040, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 39559864, used 64372040, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5746.384
+160: time = 0.921000 loss = 9.214347
+Resulting gain: 0.008810946468983616
+spring response curves
+Response curve: only UpperSnake_PlanformCurvatureRange
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 20110064, used 83821840, increment 19449800
+spring UpperSnake_PlanformCurvatureRange: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 37899472, used 66032432, increment -17789408
+linearPredictor: max memory 259522560, total allocated 103931904, free 37899472, used 66032432, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 37899472, used 66032432, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 37899472, used 66032432, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5748.402
+260: time = 1.907000 loss = 9.165796
+Resulting gain: 0.05736222228329879
+spring response curves
+Response curve: only UpperSnake_ProfileCurvature
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 34990696, used 68941208, increment 2908776
+spring UpperSnake_ProfileCurvature: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 31643128, used 72288776, increment 3347568
+linearPredictor: max memory 259522560, total allocated 103931904, free 31643128, used 72288776, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 31643128, used 72288776, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 31643128, used 72288776, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5750.623
+320: time = 2.109000 loss = 9.180857
+Resulting gain: 0.04230127306568576
+spring response curves
+Response curve: only UpperSnake_ProfileCurvatureRange
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 18523576, used 85408328, increment 13119552
+spring UpperSnake_ProfileCurvatureRange: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 36258232, used 67673672, increment -17734656
+linearPredictor: max memory 259522560, total allocated 103931904, free 36177184, used 67754720, increment 81048
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 36177184, used 67754720, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 36177184, used 67754720, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5751.779
+140: time = 1.032000 loss = 9.120572
+Resulting gain: 0.10258634168641301
+spring response curves
+Response curve: only UpperSnake_Slope
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 32526608, used 71405296, increment 3650576
+spring UpperSnake_Slope: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 29285360, used 74646544, increment 3241248
+linearPredictor: max memory 259522560, total allocated 103931904, free 29285360, used 74646544, increment 0
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 29285360, used 74646544, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 29285360, used 74646544, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5754.264
+360: time = 2.298000 loss = 8.899752
+Resulting gain: 0.32340538412653785
+spring response curves
+Response curve: only UpperSnake_SurficialGeology
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 25766992, used 78164912, increment 3518368
+spring UpperSnake_SurficialGeology: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 25671264, used 78260640, increment 95728
+linearPredictor: max memory 259522560, total allocated 103931904, free 25590216, used 78341688, increment 81048
+Deactivating (UpperSnake_SurficialGeology=4.0)
+Deactivating (UpperSnake_SurficialGeology=5.0)
+Deactivating (UpperSnake_SurficialGeology=6.0)
+Deactivating (UpperSnake_SurficialGeology=7.0)
+Deactivating (UpperSnake_SurficialGeology=8.0)
+Deactivating (UpperSnake_SurficialGeology=9.0)
+Deactivating (UpperSnake_SurficialGeology=10.0)
+Deactivating (UpperSnake_SurficialGeology=11.0)
+Deactivating (UpperSnake_SurficialGeology=12.0)
+Deactivating (UpperSnake_SurficialGeology=13.0)
+Deactivating (UpperSnake_SurficialGeology=14.0)
+Deactivating (UpperSnake_SurficialGeology=15.0)
+Deactivating (UpperSnake_SurficialGeology=17.0)
+Deactivating (UpperSnake_SurficialGeology=18.0)
+Deactivating (UpperSnake_SurficialGeology=19.0)
+Deactivating (UpperSnake_SurficialGeology=20.0)
+Deactivating (UpperSnake_SurficialGeology=22.0)
+Deactivating (UpperSnake_SurficialGeology=23.0)
+Deactivating (UpperSnake_SurficialGeology=25.0)
+Deactivating (UpperSnake_SurficialGeology=26.0)
+Deactivating (UpperSnake_SurficialGeology=28.0)
+Deactivating (UpperSnake_SurficialGeology=29.0)
+Deactivating (UpperSnake_SurficialGeology=30.0)
+Deactivating (UpperSnake_SurficialGeology=31.0)
+Deactivating (UpperSnake_SurficialGeology=32.0)
+Deactivating (UpperSnake_SurficialGeology=34.0)
+Deactivating (UpperSnake_SurficialGeology=36.0)
+Deactivating (UpperSnake_SurficialGeology=38.0)
+Deactivating (UpperSnake_SurficialGeology=39.0)
+Deactivating (UpperSnake_SurficialGeology=41.0)
+Deactivating (UpperSnake_SurficialGeology=43.0)
+Deactivating (UpperSnake_SurficialGeology=48.0)
+Deactivating (UpperSnake_SurficialGeology=49.0)
+Deactivating (UpperSnake_SurficialGeology=50.0)
+Deactivating (UpperSnake_SurficialGeology=53.0)
+Deactivating (UpperSnake_SurficialGeology=54.0)
+Deactivating (UpperSnake_SurficialGeology=57.0)
+Deactivating (UpperSnake_SurficialGeology=60.0)
+Deactivating (UpperSnake_SurficialGeology=62.0)
+Deactivating (UpperSnake_SurficialGeology=63.0)
+Deactivating (UpperSnake_SurficialGeology=64.0)
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 25590216, used 78341688, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 25590216, used 78341688, increment 0
+Initial loss: 9.223157875686796
+300: time = 0.609000 loss = 8.633159
+Resulting gain: 0.5899991904519499
+spring response curves
+Response curve: only UpperSnake_TerrainRuggedness
+Making features
+makeFeatures: max memory 259522560, total allocated 103931904, free 18431224, used 85500680, increment 7158992
+spring UpperSnake_TerrainRuggedness: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 259522560, total allocated 103931904, free 15370216, used 88561688, increment 3061008
+linearPredictor: max memory 259522560, total allocated 103931904, free 15289168, used 88642736, increment 81048
+FeaturedSpace: max memory 259522560, total allocated 103931904, free 15289168, used 88642736, increment 0
+Sequential: max memory 259522560, total allocated 103931904, free 15289168, used 88642736, increment 0
+Initial loss: 9.223157875686796
+Time since start: 5756.881
+240: time = 1.719000 loss = 8.918493
+Resulting gain: 0.3046651277935055
+spring response curves
+Time since start: 5758.586
+Ending
