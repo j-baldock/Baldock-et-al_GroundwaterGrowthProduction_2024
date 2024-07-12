@@ -3,8 +3,6 @@ Data and code repository for manuscript entitled "Groundwater structures fish gr
 
 "Growth_data_working_withAges_YOYonly.csv": this is raw fish catch data. 
 
-"Growth_DataTable_WithCovariates.csv": this is the data file used in the various growth and production R scripts. This file is created within the "Data Table.R" script, located within the "Data manipulation" folder. The raw fish data can be found in the "GrowthData_working_withAges_YOYonly.csv" file, located within the "Data manipulation" folder.  
-
 
 "Data manipulation": various scripts and data files used to create "Growth_DataTable_WithCovariates.csv", which is used in the various growth and production R scripts. This file is created within the "Data Table 2.R" script. Note that some of the files called within "Data Table 2.R" are located in other directories (see Density and Temperature folders).
 
